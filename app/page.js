@@ -30,17 +30,17 @@ export default function page() {
   return (
     <div className='box'>
       <img alt='gumball' className='gif' src={`/${img}.gif`} />
-      {how ? 'Hmmmph, Theres no choice!' : 'Will you go out with me?'}
+      {how ? 'Hmmmph, Theres no choice!' : 'Narisauuu naaa!! Hami exam paxi ghumna jane ni haiii??'}
       <div className='btns'>
         <Link className='yes' href='/yay'>
           <button onMouseOver={() => updteImg('sparkle-eyes')} onMouseOut={() => updteImg('puppy-eyes')}>
-            Yes
+            HUnxaaaaa
           </button>
         </Link>
         <button className='no' 
           style={p ? {position: 'absolute', top: p.x, right: p.y} : null} 
           onClick={dontdoit} onMouseOver={nah}>
-            No
+            Najanee😔
         </button> 
       </div>
     </div>
